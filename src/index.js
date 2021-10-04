@@ -1,5 +1,5 @@
 module.exports = {
-  Editor: require("./lib/Editor"),
-  BaseWidget: require("./lib/BaseWidget"),
-  Utils: require("./lib/util")
+  Editor: require("./editor/Editor"),
+  BaseWidget: require("./editor/BaseWidget"),
+  Utils: require("./utils")
 }
