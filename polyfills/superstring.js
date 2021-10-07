@@ -3,8 +3,8 @@ window.VsCodeTextBuffer = VsCodeTextBuffer
 const { PieceTreeTextBufferBuilder } = VsCodeTextBuffer
 // const TermKitTextBuffer = require("terminal-kit/lib/TextBuffer")
 
-const Range = require('@sahidmiller/text-buffer/lib/range')
-const Point = require('@sahidmiller/text-buffer/lib/point')
+const Range = require('@sahidmiller/atom-textbuffer/lib/range')
+const Point = require('@sahidmiller/atom-textbuffer/lib/point')
 const fs = require('fs')
 
 const DefaultLineFeeds = {

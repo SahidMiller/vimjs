@@ -5,9 +5,9 @@ var lodash = require("lodash");
 require("es6-set/implement"); // required for text-buffer
 // if (require("semver").lt(process.version, "4.0.0"))
 //   require("iconv-lite").extendNodeEncodings(); // FIXME: destroy this abomination
-var TextBuffer = require("@sahidmiller/text-buffer");
-var Point = require("@sahidmiller/text-buffer/lib/point");
-var Range = require("@sahidmiller/text-buffer/lib/range");
+var TextBuffer = require("@sahidmiller/atom-textbuffer");
+var Point = require("@sahidmiller/atom-textbuffer/lib/point");
+var Range = require("@sahidmiller/atom-textbuffer/lib/range");
 var clipboard = require("copy-paste");
 
 var util = require("../utils");

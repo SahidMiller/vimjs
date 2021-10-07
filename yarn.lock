@@ -14,12 +14,13 @@
     omggif "^1.0.10"
     pngjs "^5.0.0"
 
-"@sahidmiller/text-buffer@13.18.7":
-  version "13.18.7"
-  resolved "https://registry.yarnpkg.com/@sahidmiller/text-buffer/-/text-buffer-13.18.7.tgz#cad3de6f3e2ed951236847ebd61fc29734c9932e"
-  integrity sha512-GGjEQxFzV1JMbOvkzee8ERW7OsdTOQrFQLPEItxcruXZq4n0+Gt4p1eKTkHBREOm3F8FZEjdL/Wn9mQfQLN5jg==
+"@sahidmiller/atom-textbuffer@13.18.9":
+  version "13.18.9"
+  resolved "https://registry.yarnpkg.com/@sahidmiller/atom-textbuffer/-/atom-textbuffer-13.18.9.tgz#0e11acfaaede155b0d6a5a5cfa78bdcc2dc6da09"
+  integrity sha512-xxtTkY7lwzFUPKi05CpeckLv4AGgzZC40ya606NIRf/jzL6g+Agv/U7mLAcRCiU6jZVsXzCJC6edxKLCRklUFQ==
   dependencies:
-    "@sahidmiller/textbuffer" "^1.0.0"
+    "@sahidmiller/vscode-textbuffer" "^1.0.0"
+    atom-patch "0.3.0"
     delegato "^1.0.0"
     diff "^2.2.1"
     emissary "^1.0.0"
@@ -27,15 +28,16 @@
     fs-admin "^0.19.0"
     fs-plus "^3.0.0"
     grim "^2.0.2"
+    marker-index SahidMiller/marker-index
     mkdirp "^0.5.1"
     serializable "^1.0.3"
     underscore-plus "^1.0.0"
     winattr "^3.0.0"
 
-"@sahidmiller/textbuffer@^1.0.0":
+"@sahidmiller/vscode-textbuffer@^1.0.0":
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@sahidmiller/textbuffer/-/textbuffer-1.0.0.tgz#30b899a967d77a614f5d77f17b0193f1dfc0ad87"
-  integrity sha512-0kgmjVcH+FhIIqpAP4mAbIo1/L5pAgWsP+tdZYpDcydc46sdpfuhHkCp3CoSe2hGW+pCvmenJP32fhoYKNhehQ==
+  resolved "https://registry.yarnpkg.com/@sahidmiller/vscode-textbuffer/-/vscode-textbuffer-1.0.0.tgz#8526f4257f5b2f10e9f531ee02e54dbd113e5118"
+  integrity sha512-6xhjllWr/hs5Af98VBxDqJArdkd9s2LNAiUbWfMNlthdRI4Hbw7Qv5+D4Y4rY+bnumUxAGg+1QADeu2zihNNBQ==
 
 "@sindresorhus/is@^0.14.0":
   version "0.14.0"
@@ -1252,6 +1254,14 @@ make-dir@^3.0.0:
   integrity sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==
   dependencies:
     semver "^6.0.0"
+
+"marker-index@github:SahidMiller/marker-index":
+  version "4.0.1"
+  uid "9f3bd43ac0fab44fda1ac742e2aaacbe0ebe9754"
+  resolved "https://codeload.github.com/SahidMiller/marker-index/tar.gz/9f3bd43ac0fab44fda1ac742e2aaacbe0ebe9754"
+  dependencies:
+    nan "^2.1.0"
+    random-seed "^0.2.0"
 
 "marker-index@https://github.com/sahidmiller/marker-index":
   version "4.0.1"

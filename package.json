@@ -5,8 +5,8 @@
   "author": "Dan Kaplun <dbkaplun@gmail.com>",
   "bugs": "https://github.com/slap-editor/editor-widget/issues",
   "dependencies": {
-    "@sahidmiller/text-buffer": "13.18.7",
-    "@sahidmiller/textbuffer": "^1.0.0",
+    "@sahidmiller/atom-textbuffer": "13.18.9",
+    "@sahidmiller/vscode-textbuffer": "^1.0.0",
     "atom-patch": "0.3.0",
     "blessed": "^0.1.81",
     "bluebird": "^3.7.2",

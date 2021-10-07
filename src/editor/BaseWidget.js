@@ -1,6 +1,6 @@
 var blessed = require("blessed");
 var _ = require("lodash");
-var Point = require("@sahidmiller/text-buffer/lib/point");
+var Point = require("@sahidmiller/atom-textbuffer/lib/point");
 
 var util = require("../utils");
 var path = require("path");
